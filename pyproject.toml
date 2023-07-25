@@ -1,3 +1,36 @@
+[tool.poetry]
+name = "localgpt"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+langchain = "^0.0.240"
+llama-cpp-python = "^0.1.77"
+pdfminer-six = "^20221105"
+instructorembedding = "^1.0.1"
+sentence-transformers = "^2.2.2"
+faiss-cpu = "^1.7.4"
+huggingface-hub = "^0.16.4"
+transformers = "^4.31.0"
+protobuf = "^4.23.4"
+auto-gptq = "^0.3.0"
+docx2txt = "^0.8"
+urllib3 = "^2.0.4"
+accelerate = "^0.21.0"
+bitsandbytes = "^0.41.0"
+click = "^8.1.6"
+flask = "^2.3.2"
+requests = "^2.31.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 # ==== black ====
 [tool.black]
 line-length = 119
